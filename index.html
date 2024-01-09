@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equi="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <title>Simple Web APIs</title>
+</head>
+<body>
+    <div class="container">
+
+        <div class="header">
+            <h1>Simple Web APIs</h1>
+        </div>
+
+        <div class="form-clipboard">
+            <h1 class="titles"> Copy to Clipboard</h1>
+            <div class="inputAndButton">
+                <input class="textInput" type="text" value="Type Something Here" id="copyInput"/>
+                <button class="copy-button" id="copy-button">Copy Text to Clipboard</button>
+            </div>
+            <p class="description"> The Clipboard API provides the ability to respond to clipboard 
+                commands (cut, copy, and paste) as well as to asynchronously read from and write to the system clipboard.
+            </p>
+            <a class="hyperlink" href="https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API">source</a> 
+            
+            
+        </div>
+
+        <div class="form-clipboard">
+            <h1 class="titles"> EyeDropper</h1>
+            <div class="eyedropper-container">
+                <div class="eydropper"  id="eyedropperDisply">
+                    Color Display
+                </div>
+                <button class="copy-button" id="eyedropperButton">Activate EyeDropper</button>
+            </div>
+            <p class="description"> 
+                <span>
+                    The EyeDropper API provides a mechanism for creating an eyedropper tool. Using this tool, 
+                    users can sample colors from their screens, including outside of the browser window.
+                </span>
+                <span style="color: rgb(146, 14, 14);">
+                    (Not Supported by Firefox, Safari, Chrome Android, 
+                    Firefox Android, Opera Android, Safari on IOS, Samsung Internet, WebView Android)
+                </span>
+                 
+            </p>
+            <a class="hyperlink" href="https://developer.mozilla.org/en-US/docs/Web/API/EyeDropper_API">source</a> 
+            
+            
+        </div>
+    </div>
+</body>
